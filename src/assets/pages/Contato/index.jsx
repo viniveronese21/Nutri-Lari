@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from '../../components/header'
 import { Container } from './styles'
 
 export default function Contato() {
   return (
     <Container>
+      <Header/>
+
       <h1>Entre em contato</h1>
       <div>
         <form>
