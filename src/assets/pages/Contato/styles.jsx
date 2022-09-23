@@ -20,6 +20,7 @@ export const Container = styled.div`
   div{
     display: flex;
     padding: 40px;
+    gap: 25px;
 
     form{
       display: flex;
@@ -29,7 +30,7 @@ export const Container = styled.div`
         font-size: 20px;
         margin-bottom: 30px;
       }
-      
+
       input[type="email"]{
         height: 46px;
         width: 470px;
@@ -55,6 +56,12 @@ export const Container = styled.div`
         text-align: center;
         color: #fff;
         margin-bottom: 60px;
+
+        &:hover {
+          background: #8a0404;
+
+        }
+
       }
     }
 
@@ -63,14 +70,14 @@ export const Container = styled.div`
       flex-direction: column;
       justify-content: center;
       width: 420px;
-      height: 180px;  
+      height: 180px;
 
       h3{
         margin-bottom: 20px;
         font-size: 20px;
         line-height: 72px;
       }
-      
+
       p{
         font-size: 20px;
         line-height: 30px;
