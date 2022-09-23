@@ -11,3 +11,12 @@ body {
   font-family: poppins;
   font-size: 14px;
 }
+
+button{
+  cursor: pointer;
+  border: none;
+}
+
+input{
+  border: none;
+}
