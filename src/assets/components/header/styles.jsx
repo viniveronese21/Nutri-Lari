@@ -11,13 +11,13 @@ export const TopHeader = styled.header`
 `
 
 export const Img = styled.img`
-  padding: 25px 0 25px 175px;
+  padding: 25px 0 25px 125px;
 `
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
-  gap: 75px;
-  padding-right: 170px;
+  gap: 50px;
+  padding-right: 90px;
 
   a{
     text-decoration: none;
@@ -29,7 +29,9 @@ export const Nav = styled.nav`
 
   a:hover{
     border-bottom: 2px solid #fff;
-  }
+  };
+
+  ${(props) => `#link-${props.pathname === '' ? 'home' : props.pathname} {border-bottom: 2px solid #fff;}`}
 
 `
 

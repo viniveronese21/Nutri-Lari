@@ -4,15 +4,20 @@ import Logo from '../../img/logo.svg'
 import { Link } from 'react-router-dom'
 
 export default function Header() {
+  const pathname = String(window.location.pathname)
+    .toLowerCase()
+    .replace('/', '')
+
+
   return (
     <TopHeader>
       <Img src={Logo} alt='Larssia Longobardi' />
-      <Nav>
-        <Link to='/'>Home</Link>
-        <Link to='/Servicos'>Serviços</Link>
-        <Link to='/Consultas'>Consultas</Link>
-        <Link to='/Contato'>Contato</Link>
-        <Button className='Bnt-hover'>Agendar</Button>
+      <Nav pathname={pathname}>
+        <Link id='link-home' to='/'>Home</Link>
+        <Link id='link-servicos' to='/Servicos'>Serviços</Link>
+        <Link id='link-consultas' to='/Consultas'>Consultas</Link>
+        <Link id='link-contato' to='/Contato'>Contato</Link>
+        <Button>Agendar</Button>
       </Nav>
     </TopHeader>
   )
