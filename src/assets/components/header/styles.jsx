@@ -19,16 +19,20 @@ export const Nav = styled.nav`
   gap: 75px;
   padding-right: 170px;
 
-  a {
+  a{
     text-decoration: none;
     color: #ffff;
-  }
+    padding: 2px;
+
+  };
+
 
   a:hover{
-    color: #ffeb8a;
+    border-bottom: 2px solid #fff;
   }
 
 `
+
 export const Button = styled.button`
   width: 164px;
   height: 43px;
