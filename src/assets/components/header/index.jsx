@@ -8,7 +8,6 @@ export default function Header() {
     .toLowerCase()
     .replace('/', '')
 
-
   return (
     <TopHeader>
       <Img src={Logo} alt='Larssia Longobardi' />

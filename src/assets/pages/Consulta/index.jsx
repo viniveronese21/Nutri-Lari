@@ -4,7 +4,8 @@ import Header from '../../components/header'
 export default function Consulta() {
   return (
     <>
-      <Header />
+      <Header/>
+
       <h1>Consulta</h1>
     </>
   )
