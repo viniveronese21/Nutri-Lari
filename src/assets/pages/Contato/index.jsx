@@ -5,6 +5,7 @@ export default function Contato() {
   return (
     <>
       <Header />
+      <h1>Contato</h1>
     </>
   )
 }

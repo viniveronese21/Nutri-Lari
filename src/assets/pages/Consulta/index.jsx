@@ -5,6 +5,7 @@ export default function Consulta() {
   return (
     <>
       <Header />
+      <h1>Consulta</h1>
     </>
   )
 }

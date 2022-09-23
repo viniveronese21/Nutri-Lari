@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 export const TopHeader = styled.header`
-  background-color: #c2c2c2;
+  background-image: url(https://images.pexels.com/photos/327098/pexels-photo-327098.jpeg?cs=srgb&dl=pexels-pixabay-327098.jpg&fm=jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   width: 100%;
   height: 100px;
   display: flex;
@@ -9,7 +11,6 @@ export const TopHeader = styled.header`
 `
 
 export const Img = styled.img`
-  display: flex;
   padding: 25px 0 25px 175px;
 `
 export const Nav = styled.nav`
@@ -22,6 +23,11 @@ export const Nav = styled.nav`
     text-decoration: none;
     color: #ffff;
   }
+
+  a:hover{
+    color: #ffeb8a;
+  }
+
 `
 export const Button = styled.button`
   width: 164px;
@@ -31,4 +37,10 @@ export const Button = styled.button`
   cursor: pointer;
   color: #ffff;
   background: none;
+
+  &:hover {
+    border: 2px solid #ffeb8a;
+    color: #ffeb8a;
+  }
 `
+

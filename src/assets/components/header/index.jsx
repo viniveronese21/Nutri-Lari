@@ -12,7 +12,7 @@ export default function Header() {
         <Link to='/Servicos'>Serviços</Link>
         <Link to='/Consultas'>Consultas</Link>
         <Link to='/Contato'>Contato</Link>
-        <Button>Agendar</Button>
+        <Button className='Bnt-hover'>Agendar</Button>
       </Nav>
     </TopHeader>
   )
