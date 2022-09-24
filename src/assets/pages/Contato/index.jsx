@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../components/header'
+import Footer from '../../components/footer'
 import { Container } from './styles'
 
 export default function Contato() {
@@ -19,7 +20,7 @@ export default function Contato() {
           <div>
             <h3>Feedback</h3>
             <p>
-              Nós ajude a proporcionar uma melhor
+              Nos ajude a proporcionar uma melhor
               experiencia para você.
               <strong>Dicas, opiniões, elogios, criticas.</strong>
             </p>
@@ -27,6 +28,7 @@ export default function Contato() {
         </div>
 
       </Container>
+      <Footer/>
     </>
   )
 }
