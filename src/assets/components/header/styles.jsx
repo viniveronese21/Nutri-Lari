@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const TopHeader = styled.header`
-  background-image: url(https://images.pexels.com/photos/327098/pexels-photo-327098.jpeg?cs=srgb&dl=pexels-pixabay-327098.jpg&fm=jpg);
+  background-color: #fafafa;
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -21,32 +21,33 @@ export const Nav = styled.nav`
 
   a{
     text-decoration: none;
-    color: #ffff;
+    color: #03091E;
     padding: 2px;
 
   };
 
 
   a:hover{
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #03091E;
   };
 
-  ${(props) => `#link-${props.pathname === '' ? 'home' : props.pathname} {border-bottom: 2px solid #fff;}`}
+  ${(props) => `#link-${props.pathname === '' ? 'home' : props.pathname} {border-bottom: 2px solid #03091E;}`}
 
 `
 
 export const Button = styled.button`
   width: 164px;
   height: 43px;
-  border: 2px solid #ffffff;
+  border: 2px solid #03091E;
   border-radius: 22px;
   cursor: pointer;
-  color: #ffff;
+  color: #03091E;
   background: none;
 
   &:hover {
-    border: 2px solid #ffeb8a;
-    color: #ffeb8a;
+    border: 2px solid #c32f27;
+    background-color: #c32f27;
+    color: #ffff;
   }
 `
 
