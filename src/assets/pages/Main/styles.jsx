@@ -14,19 +14,21 @@ margin-top: 50px;
 export const ContainerFrase = styled.div`
 display: flex;
 align-items: baseline;
-justify-content: flex-end;
+justify-content: center;
 width: 100%;
-
-  strong {
-    display: block;
-  }
+gap: 9vw;
 
   div{
-    width: 250px;
     padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    width: 300px;
+  }
+  
+  strong {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 15px;
   }
 
-  p{
-    display: block;
-  }
 `
