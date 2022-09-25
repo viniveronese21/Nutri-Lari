@@ -20,7 +20,7 @@ export default function Footer() {
         </Span>
 
         <Span><HiOutlinePhone size={25}/>
-          <a href="tel:+551999873-1628">(19) 9 9873-1628</a>
+          <a href="tel:+5519998731628">(19) 9 9873-1628</a>
         </Span>
 
       </Colum>
