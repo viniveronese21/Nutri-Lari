@@ -18,12 +18,14 @@ export const Container = styled.div`
 `
 export const ContainerForm = styled.div`
   display: flex;
+  align-items: baseline;
   padding: 40px;
   gap: 25px;
 `
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
+  margin-right: 50px;
 
   h3{
     font-size: 20px;
@@ -67,6 +69,8 @@ export const Feedback = styled.div`
   justify-content: center;
   width: 420px;
   height: 180px;
+  margin-left: 50px;
+
 
     h3{
       margin-bottom: 20px;
