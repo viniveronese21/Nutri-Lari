@@ -20,7 +20,7 @@ export default function Footer() {
         </Span>
 
         <Span><HiOutlinePhone size={25}/>
-          <a href="tel:+551999873-1628">(19) 9 9873-1628</a>
+          <a href="tel:+5519998731628">(19) 9 9873-1628</a>
         </Span>
 
       </Colum>
@@ -28,7 +28,6 @@ export default function Footer() {
       <Colum>
         <Social>
           <h3>REDES SOCIAIS</h3>
-
           <SocialIcons>
             <SiInstagram size={30}/>
             <AiOutlineYoutube size={40}/>
