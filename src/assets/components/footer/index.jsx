@@ -2,7 +2,6 @@ import React from 'react'
 import { Container, Colum, Img, Span, Social, SocialIcons} from './style'
 import { HiOutlineMail, HiOutlinePhone } from 'react-icons/hi'
 import { SiInstagram, SiWhatsapp} from 'react-icons/si'
-import { AiOutlineYoutube } from 'react-icons/ai'
 import Icon from '../../img/Icon.png'
 
 export default function Footer() {
@@ -30,7 +29,6 @@ export default function Footer() {
           <h3>REDES SOCIAIS</h3>
           <SocialIcons>
             <SiInstagram size={30}/>
-            <AiOutlineYoutube size={40}/>
             <SiWhatsapp size={30}/>
           </SocialIcons>
         </Social>
