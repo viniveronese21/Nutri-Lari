@@ -41,6 +41,7 @@ export const SocialIcons = styled.div`
   display: flex;
   align-items: baseline;
   flex-direction: row;
-  justify-content:  space-around;
+  justify-content:  center;
+  gap: 48px;
   margin: 35px ;
 `

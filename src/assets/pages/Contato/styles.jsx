@@ -14,6 +14,7 @@ export const Container = styled.div`
     text-align: center;
     color: #03091E;
     margin-top: 60px;
+    margin-bottom: 66px;
   }
 `
 export const ContainerForm = styled.div`
