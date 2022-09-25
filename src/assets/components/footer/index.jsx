@@ -28,7 +28,6 @@ export default function Footer() {
       <Colum>
         <Social>
           <h3>REDES SOCIAIS</h3>
-
           <SocialIcons>
             <SiInstagram size={30}/>
             <AiOutlineYoutube size={40}/>
