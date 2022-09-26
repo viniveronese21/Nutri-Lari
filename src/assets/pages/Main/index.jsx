@@ -11,6 +11,8 @@ export default function Main() {
     <>
       <Header />
       <Container>
+
+
         <ContainerFrase>
           <div>
             <img src={Acompanhamento} alt="Acompanhamento" />
@@ -28,7 +30,6 @@ export default function Main() {
             <p> Queremos saber a coisa mais valiosa coisa.</p> Sua opinião.
           </div>
         </ContainerFrase>
-
       </Container>
       <Footer />
     </>
