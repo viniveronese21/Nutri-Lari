@@ -8,7 +8,12 @@ export const MainContainer = styled.div`
   height: 1070px;
   background-image: url(${banner});
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+
+  @media (max-width: 768px) {
+    height:auto;
+    width: auto;
+  }
 `
 
 export const Container = styled.div`
@@ -17,13 +22,23 @@ export const Container = styled.div`
   width: 1349px;
   height: 1070px;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    height:auto;
+    width:auto;
+  }
 `
 
-export const ContentText = styled.div `
+export const ContentText = styled.div`
   width: 765px;
   height: 563px;
   margin: 138px 0 0 211px;
 
+  @media (max-width: 768px) {
+    height: auto;
+    width: auto;
+    margin: 40px;
+  }
 `
 export const Title = styled.h1`
   font-size: 48px;
@@ -33,6 +48,8 @@ export const Title = styled.h1`
 export const Span = styled.span`
     font-size: 20px;
     line-height: 40px;
+    display: block;
+    margin-bottom: 25px;
 `
 
 export const ImgContainer = styled.div`
@@ -42,6 +59,13 @@ export const ImgContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    gap: 50px;
+  }
 `
 export const Img = styled.img`
   width: 272px;

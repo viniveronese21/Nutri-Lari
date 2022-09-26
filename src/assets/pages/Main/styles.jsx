@@ -61,7 +61,7 @@ background-size: cover;
   h1{
     width: 694px;
     font-size: 54px;
-    line-height: 123%;
+    line-height: 122%;
     margin-bottom: 20px;
 
     @media (max-width: 768px) {
