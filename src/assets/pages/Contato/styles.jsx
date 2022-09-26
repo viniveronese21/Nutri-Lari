@@ -15,13 +15,25 @@ export const Container = styled.div`
     color: #03091E;
     margin-top: 60px;
     margin-bottom: 66px;
+
+    @media (max-width: 768px) {
+      font-size: 30px;
+      width: auto;
+    }
   }
+
 `
 export const ContainerForm = styled.div`
   display: flex;
   align-items: baseline;
   padding: 40px;
   gap: 25px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
 `
 export const Form = styled.form`
   display: flex;
@@ -39,6 +51,11 @@ export const Form = styled.form`
     border-radius: 10px;
     margin-bottom: 25px;
     padding-left: 20px;
+
+    @media (max-width: 768px) {
+    width: auto;
+  }
+
   }
 
   input[type="text"]{
@@ -63,6 +80,11 @@ export const Form = styled.form`
         background: #8a0404;
       }
   }
+  
+  @media (max-width: 768px) {
+    width: 50%;
+  }
+
 `
 export const Feedback = styled.div`
   display: flex;
@@ -71,7 +93,6 @@ export const Feedback = styled.div`
   width: 420px;
   height: 180px;
   margin-left: 50px;
-
 
     h3{
       margin-bottom: 20px;
@@ -87,4 +108,11 @@ export const Feedback = styled.div`
     strong{
       display: block;
   }
+
+  @media (max-width: 768px) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
 `

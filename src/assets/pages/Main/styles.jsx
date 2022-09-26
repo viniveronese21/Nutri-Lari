@@ -20,7 +20,6 @@ margin-bottom: 6vw;
     font-size: 19px;
     line-height: 20px;
     width: 300px;
-
   }
   
   strong {
@@ -29,6 +28,11 @@ margin-bottom: 6vw;
     margin-top: 40px;
     margin-bottom: 15px;
   }
+
+  @media (max-width: 768px) {
+  width: auto;
+  flex-direction: column;
+}
 `
 export const ContainerHeader = styled.div`
 width: 100%;
@@ -46,6 +50,12 @@ background-size: cover;
     margin-left: 200px;
     margin-top: 200px;
     color: #FFFFFF;
+
+    @media (max-width: 768px) {
+      align-items: center;
+      margin: 0;
+      text-align: center;
+    }
   }
 
   h1{
@@ -53,6 +63,12 @@ background-size: cover;
     font-size: 54px;
     line-height: 123%;
     margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+      width: auto;
+      margin-top: 20px;
+      font-size: 26px;
+    }
   }
 
   span{
@@ -60,6 +76,10 @@ background-size: cover;
     height: 60px;
     font-size: 20px;
     margin-bottom: 70px;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
   }
 
   button{ 
@@ -75,5 +95,15 @@ background-size: cover;
         opacity: 0.9;
         transition: 1s all;
       }
+
+      @media (max-width: 768px) {
+        margin-bottom: 20px;
+        width: 50%;
+      }
   }
+
+  @media (max-width: 768px) {
+  width: 100%;
+  height: auto;
+}
 `

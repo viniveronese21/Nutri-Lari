@@ -6,11 +6,22 @@ export const Container = styled.footer`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    text-align: center
+  }
 `
 export const Colum = styled.div`
   margin: 20px 0 20px 0;
   width: 500px;
   padding: 65px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
 `
 
 export const Span = styled.span`
