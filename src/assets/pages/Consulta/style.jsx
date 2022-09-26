@@ -8,6 +8,12 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
 `
+export const ContentContainer = styled.div`
+      width: 731px;
+      height: 814px;
+      border: 1px solid red;
+
+`
 
 export const Columns = styled.div`
     display: flex;

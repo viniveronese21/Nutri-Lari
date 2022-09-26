@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.footer`
+  background-color: #Fafafa;
   width: 100%;
   height: 330px;
   display: flex;
