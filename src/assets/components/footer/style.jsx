@@ -10,7 +10,8 @@ export const Container = styled.footer`
 
   @media (max-width: 768px) {
     flex-wrap: wrap;
-    text-align: center
+    text-align: center;
+    height: auto;
   }
 `
 export const Colum = styled.div`
