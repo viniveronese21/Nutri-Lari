@@ -4,15 +4,20 @@ import Footer from '../../components/footer'
 import Acompanhamento from '../../img/acompanhamento.svg'
 import Consultas from '../../img/consultas.svg'
 import FaleConosco from '../../img/faleConosco.svg'
-import { Container, ContainerFrase } from './styles'
+import { Container, ContainerFrase, ContainerHeader } from './styles'
 
 export default function Main() {
   return (
     <>
       <Header />
       <Container>
-
-
+        <ContainerHeader>
+          <div>
+            <h1>Cuidando da sua saúde e melhor qualidadede vida</h1>
+            <span>Que a alimentação seja o seu único remédio.</span>
+            <button>Agendar Sua Consulta</button>
+          </div>
+        </ContainerHeader>
         <ContainerFrase>
           <div>
             <img src={Acompanhamento} alt="Acompanhamento" />

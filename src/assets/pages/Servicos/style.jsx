@@ -17,7 +17,6 @@ export const Container = styled.div`
   width: 1349px;
   height: 1070px;
   margin: 0 auto;
-
 `
 
 export const ContentText = styled.div `
