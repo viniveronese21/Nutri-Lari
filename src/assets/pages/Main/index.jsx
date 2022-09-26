@@ -11,6 +11,8 @@ export default function Main() {
     <>
       <Header />
       <Container>
+
+
         <ContainerFrase>
           <div>
             <img src={Acompanhamento} alt="Acompanhamento" />
