@@ -7,6 +7,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 768px) {
+    width: auto;
+    height: auto;
+  }
 `
 export const TextBox = styled.div`
   width: 709px;
@@ -21,6 +26,13 @@ export const TextBox = styled.div`
     font-size: 16px;
     color: #03091e;
   }
+
+  @media (max-width: 768px) {
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+
 `
 
 export const ImgContainer = styled.div`
@@ -30,6 +42,14 @@ export const ImgContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   margin: 67px 0 0 0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
 `
 
 export const Columns = styled.div`
@@ -37,6 +57,7 @@ export const Columns = styled.div`
   height: 555px;
   background-color: #6e9123;
   border-radius: 61px;
+
 `
 export const Img = styled.img`
   border-radius: 61px 61px 0 0;
