@@ -28,6 +28,11 @@ export const ContainerFrase = styled.div`
     margin-top: 40px;
     margin-bottom: 15px;
   }
+
+  @media (max-width: 768px) {
+  width: auto;
+  flex-direction: column;
+}
 `
 export const ContainerHeader = styled.div`
   width: 100%;
@@ -44,7 +49,17 @@ export const ContainerHeader = styled.div`
     text-align: left;
     margin-left: 200px;
     margin-top: 200px;
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #FFFFFF;
+
+    @media (max-width: 768px) {
+      align-items: center;
+      margin: 0;
+      text-align: center;
+    }
+>>>>>>> f657102d7a0736f6da437c35fb4706d505ef8f3b
   }
 
   h1 {
@@ -52,6 +67,12 @@ export const ContainerHeader = styled.div`
     font-size: 54px;
     line-height: 123%;
     margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+      width: auto;
+      margin-top: 20px;
+      font-size: 26px;
+    }
   }
 
   span {
@@ -59,6 +80,10 @@ export const ContainerHeader = styled.div`
     height: 60px;
     font-size: 20px;
     margin-bottom: 70px;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
   }
 
   button {
@@ -70,6 +95,7 @@ export const ContainerHeader = styled.div`
     font-weight: 700;
     font-size: 16px;
 
+<<<<<<< HEAD
     &:hover {
       opacity: 0.9;
       transition: 1s all;
@@ -77,3 +103,21 @@ export const ContainerHeader = styled.div`
     }
   }
 `
+=======
+      &:hover {
+        opacity: 0.9;
+        transition: 1s all;
+      }
+
+      @media (max-width: 768px) {
+        margin-bottom: 20px;
+        width: 50%;
+      }
+  }
+
+  @media (max-width: 768px) {
+  width: 100%;
+  height: auto;
+}
+`
+>>>>>>> f657102d7a0736f6da437c35fb4706d505ef8f3b
