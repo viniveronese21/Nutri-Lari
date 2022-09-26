@@ -28,7 +28,6 @@ export default function Main() {
             <p> Queremos saber a coisa mais valiosa coisa.</p> Sua opinião.
           </div>
         </ContainerFrase>
-
       </Container>
       <Footer />
     </>
