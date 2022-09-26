@@ -13,6 +13,7 @@ align-items: baseline;
 justify-content: center;
 width: 100%;
 gap: 9vw;
+margin-bottom: 6vw;
 
   div{
     padding: 10px;
@@ -32,7 +33,7 @@ gap: 9vw;
 export const ContainerHeader = styled.div`
 width: 100%;
 height: 1000px;
-margin-bottom: 40px;
+margin-bottom: 7vw;
 background-image: url(${Background});
 background-repeat: no-repeat;
 background-size: cover;
