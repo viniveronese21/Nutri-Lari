@@ -49,9 +49,6 @@ export const ContainerHeader = styled.div`
     text-align: left;
     margin-left: 200px;
     margin-top: 200px;
-<<<<<<< HEAD
-    color: #ffffff;
-=======
     color: #FFFFFF;
 
     @media (max-width: 768px) {
@@ -59,7 +56,6 @@ export const ContainerHeader = styled.div`
       margin: 0;
       text-align: center;
     }
->>>>>>> f657102d7a0736f6da437c35fb4706d505ef8f3b
   }
 
   h1 {
@@ -95,15 +91,6 @@ export const ContainerHeader = styled.div`
     font-weight: 700;
     font-size: 16px;
 
-<<<<<<< HEAD
-    &:hover {
-      opacity: 0.9;
-      transition: 1s all;
-      background-color: #8f0e07;
-    }
-  }
-`
-=======
       &:hover {
         opacity: 0.9;
         transition: 1s all;
@@ -120,4 +107,3 @@ export const ContainerHeader = styled.div`
   height: auto;
 }
 `
->>>>>>> f657102d7a0736f6da437c35fb4706d505ef8f3b
