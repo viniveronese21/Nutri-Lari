@@ -33,10 +33,22 @@ export const Nav = styled.nav`
   gap: 50px;
   padding-right: 90px;
 
-  a{
+  a {
     text-decoration: none;
-    color: #03091E;
+    color: #03091e;
     padding: 2px;
+<<<<<<< HEAD
+  }
+
+  a:hover {
+    border-bottom: 2px solid #03091e;
+  }
+
+  ${(props) =>
+    `#link-${
+      props.pathname === '' ? 'home' : props.pathname
+    } {border-bottom: 2px solid #03091E;}`}
+=======
   };
 
   a:hover{
@@ -49,15 +61,16 @@ export const Nav = styled.nav`
     flex-direction: column;
     padding: 0;
   }
+>>>>>>> f657102d7a0736f6da437c35fb4706d505ef8f3b
 `
 
 export const Button = styled.button`
   width: 164px;
   height: 43px;
-  border: 2px solid #03091E;
+  border: 2px solid #03091e;
   border-radius: 22px;
   cursor: pointer;
-  color: #03091E;
+  color: #03091e;
   background: none;
 
   &:hover {
@@ -71,4 +84,3 @@ export const Button = styled.button`
     margin-bottom: 20px;
   }
 `
-

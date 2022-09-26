@@ -2,26 +2,26 @@ import styled from 'styled-components'
 import Background from '../../img/background.png'
 
 export const Container = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 `
 export const ContainerFrase = styled.div`
-display: flex;
-align-items: baseline;
-justify-content: center;
-width: 100%;
-gap: 9vw;
-margin-bottom: 6vw;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+  gap: 9vw;
+  margin-bottom: 6vw;
 
-  div{
+  div {
     padding: 10px;
     font-size: 19px;
     line-height: 20px;
     width: 300px;
   }
-  
+
   strong {
     display: block;
     font-size: 21px;
@@ -35,20 +35,23 @@ margin-bottom: 6vw;
 }
 `
 export const ContainerHeader = styled.div`
-width: 100%;
-height: 1000px;
-margin-bottom: 7vw;
-background-image: url(${Background});
-background-repeat: no-repeat;
-background-size: cover;
+  width: 100%;
+  height: 1000px;
+  margin-bottom: 7vw;
+  background-image: url(${Background});
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  div{
+  div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
     margin-left: 200px;
     margin-top: 200px;
+<<<<<<< HEAD
+    color: #ffffff;
+=======
     color: #FFFFFF;
 
     @media (max-width: 768px) {
@@ -56,9 +59,10 @@ background-size: cover;
       margin: 0;
       text-align: center;
     }
+>>>>>>> f657102d7a0736f6da437c35fb4706d505ef8f3b
   }
 
-  h1{
+  h1 {
     width: 694px;
     font-size: 54px;
     line-height: 122%;
@@ -71,7 +75,7 @@ background-size: cover;
     }
   }
 
-  span{
+  span {
     width: 260px;
     height: 60px;
     font-size: 20px;
@@ -82,15 +86,24 @@ background-size: cover;
     }
   }
 
-  button{ 
+  button {
     width: 282px;
     height: 52px;
-    background: #C32F27;
+    background: #c32f27;
     border-radius: 22px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 700;
     font-size: 16px;
 
+<<<<<<< HEAD
+    &:hover {
+      opacity: 0.9;
+      transition: 1s all;
+      background-color: #8f0e07;
+    }
+  }
+`
+=======
       &:hover {
         opacity: 0.9;
         transition: 1s all;
@@ -107,3 +120,4 @@ background-size: cover;
   height: auto;
 }
 `
+>>>>>>> f657102d7a0736f6da437c35fb4706d505ef8f3b

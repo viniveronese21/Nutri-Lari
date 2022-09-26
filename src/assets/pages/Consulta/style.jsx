@@ -1,73 +1,79 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    width: 100%;
-    height: 935px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  background-color: #fafafa;
+  width: 100%;
+  height: 940px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `
-export const ContentContainer = styled.div`
-      width: 731px;
-      height: 814px;
-      border: 1px solid red;
+export const TextBox = styled.div`
+  width: 709px;
+  height: 153px;
+  margin: 93px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 0 0 0;
 
+  span {
+    font-size: 16px;
+    color: #03091e;
+  }
+`
+
+export const ImgContainer = styled.div`
+  width: 776px;
+  height: 555px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 67px 0 0 0;
 `
 
 export const Columns = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 120px;
-
+  width: 330px;
+  height: 555px;
+  background-color: #6e9123;
+  border-radius: 61px;
 `
-
-export const Column = styled.div`
-    background-color: #6BBF7D;
-    width: 330px;
-    height: 555px;
-    border-radius: 60px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-
-    h1{
-      padding: 10px 0 0 30px;
-      color: #ffff;
-      font-size: 36px;
-    }
-`
-
 export const Img = styled.img`
-    border-radius: 60px 60px 0 0;
+  border-radius: 61px 61px 0 0;
 `
-
-export const Texts = styled.div`
-    margin-bottom: 105px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-
-    h1{
-      font-size: 48px;
-    }
-
-    span{
-      font-size: 15px;
-    }
+export const Title = styled.h1`
+  color: #03091e;
+  font-size: 48px;
 `
 
 export const List = styled.ul`
   list-style: none;
-  padding: 15px 0 0 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
+  margin: 8px 0 0 33px;
 
-  li{
-    color: #fff;
+  li {
+    color: #ffff;
     font-size: 16px;
+  }
+
+  h1 {
+    color: #ffff;
+    font-size: 36px;
+    padding-bottom: 12px;
+  }
+`
+
+export const Btn = styled.button`
+  width: 171px;
+  height: 42px;
+  border-radius: 100px;
+  color: #ffff;
+  background-color: #03091e;
+  font-size: 16px;
+  margin: 35px 79px 24px 80px;
+
+  &:hover {
+    border: 2px solid #c32f27;
+    background-color: #c32f27;
+    color: #ffff;
   }
 `
