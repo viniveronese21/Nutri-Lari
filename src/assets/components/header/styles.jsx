@@ -19,29 +19,29 @@ export const Nav = styled.nav`
   gap: 50px;
   padding-right: 90px;
 
-  a{
+  a {
     text-decoration: none;
-    color: #03091E;
+    color: #03091e;
     padding: 2px;
+  }
 
-  };
+  a:hover {
+    border-bottom: 2px solid #03091e;
+  }
 
-
-  a:hover{
-    border-bottom: 2px solid #03091E;
-  };
-
-  ${(props) => `#link-${props.pathname === '' ? 'home' : props.pathname} {border-bottom: 2px solid #03091E;}`}
-
+  ${(props) =>
+    `#link-${
+      props.pathname === '' ? 'home' : props.pathname
+    } {border-bottom: 2px solid #03091E;}`}
 `
 
 export const Button = styled.button`
   width: 164px;
   height: 43px;
-  border: 2px solid #03091E;
+  border: 2px solid #03091e;
   border-radius: 22px;
   cursor: pointer;
-  color: #03091E;
+  color: #03091e;
   background: none;
 
   &:hover {
@@ -50,4 +50,3 @@ export const Button = styled.button`
     color: #ffff;
   }
 `
-

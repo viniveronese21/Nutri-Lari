@@ -10,12 +10,22 @@ export default function Header() {
 
   return (
     <TopHeader>
-      <Img src={Logo} alt='Larssia Longobardi' />
+      <Link to='/'>
+        <Img src={Logo} alt='Larssia Longobardi' />
+      </Link>
       <Nav pathname={pathname}>
-        <Link id='link-home' to='/'>Home</Link>
-        <Link id='link-servicos' to='/Servicos'>Serviços</Link>
-        <Link id='link-consultas' to='/Consultas'>Consultas</Link>
-        <Link id='link-contato' to='/Contato'>Contato</Link>
+        <Link id='link-home' to='/'>
+          Home
+        </Link>
+        <Link id='link-servicos' to='/Servicos'>
+          Serviços
+        </Link>
+        <Link id='link-consultas' to='/Consultas'>
+          Consultas
+        </Link>
+        <Link id='link-contato' to='/Contato'>
+          Contato
+        </Link>
         <Button>Agendar</Button>
       </Nav>
     </TopHeader>
