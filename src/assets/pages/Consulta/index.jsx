@@ -35,7 +35,13 @@ export default function Consulta() {
               <li>Avaliação por foto</li>
               <li>Cardápio</li>
             </List>
-            <Btn>AGENDAR</Btn>
+            <Btn
+              onClick={() => {
+                window.location.href = 'https://wa.me/5519998731628'
+              }}
+            >
+              AGENDAR
+            </Btn>
           </Columns>
           <Columns>
             <Img src={Presencial} />
@@ -46,7 +52,13 @@ export default function Consulta() {
               <li>Cardápio</li>
               <li>Reunião Semanal</li>
             </List>
-            <Btn>AGENDAR</Btn>
+            <Btn
+              onClick={() => {
+                window.location.href = 'https://wa.me/5519998731628'
+              }}
+            >
+              AGENDAR
+            </Btn>
           </Columns>
         </ImgContainer>
       </Container>

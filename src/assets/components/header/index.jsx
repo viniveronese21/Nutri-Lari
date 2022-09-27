@@ -26,7 +26,13 @@ export default function Header() {
         <Link id='link-contato' to='/Contato'>
           Contato
         </Link>
-        <Button>Agendar</Button>
+        <Button
+          onClick={() => {
+            window.location.href = 'https://wa.me/5519998731628'
+          }}
+        >
+          Agendar
+        </Button>
       </Nav>
     </TopHeader>
   )

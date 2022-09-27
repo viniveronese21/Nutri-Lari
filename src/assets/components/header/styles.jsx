@@ -9,6 +9,10 @@ export const TopHeader = styled.header`
   display: flex;
   justify-content: space-between;
 
+  a {
+    text-decoration: none;
+  }
+
   @media (max-width: 768px) {
     flex-direction: column;
     display: block;
@@ -37,7 +41,6 @@ export const Nav = styled.nav`
     text-decoration: none;
     color: #03091e;
     padding: 2px;
-<<<<<<< HEAD
   }
 
   a:hover {
@@ -48,20 +51,11 @@ export const Nav = styled.nav`
     `#link-${
       props.pathname === '' ? 'home' : props.pathname
     } {border-bottom: 2px solid #03091E;}`}
-=======
-  };
-
-  a:hover{
-    border-bottom: 2px solid #03091E;
-  };
-
-  ${(props) => `#link-${props.pathname === '' ? 'home' : props.pathname} {border-bottom: 2px solid #03091E;}`}
 
   @media (max-width: 768px) {
     flex-direction: column;
     padding: 0;
   }
->>>>>>> f657102d7a0736f6da437c35fb4706d505ef8f3b
 `
 
 export const Button = styled.button`
